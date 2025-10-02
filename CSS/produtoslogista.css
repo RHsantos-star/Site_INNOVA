@@ -1,0 +1,64 @@
+/* Navbar */
+.navbar {
+  background-color: #1F3C4C;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+/* Inputs customizados */
+.input-custom {
+  border: 1px solid #C9A66B;
+  border-radius: 8px;
+}
+
+/* Botão escolher arquivo */
+.btn-arquivo {
+  background-color: #1F3C4C;
+  color: #C9A66B;
+}
+
+/* Botão finalizar */
+.btn-finalizar {
+  background-color: #1F3C4C;
+  color: #868B9F;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.btn-finalizar.btn-sucesso {
+  background-color: #28a745 !important;
+  color: #fff !important;
+}
+
+/* Mensagem de sucesso */
+.alerta-sucesso {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #e6ffed;
+  color: #28a745;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 9999;
+}
+
+/* Busca */
+.busca-custom {
+  border: 1px solid #C9A66B;
+  border-radius: 100px;
+}
+
+/* Miniaturas */
+.product-thumb, .prod-thumb {
+  width: 100%;
+  height: 120px;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
