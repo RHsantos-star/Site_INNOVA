@@ -53,6 +53,9 @@
             <button type="submit" class="btn btn-outline-secondary">Editar</button>
             <button type="submit" class="btn btn-outline-danger">Excluir</button>
           </div>
+          <select id="pCategoria" class = "form-select">
+            <option select>Selecione...</option>
+          </select>
         </form>
       </div>
     </div>
@@ -111,14 +114,9 @@
           </div>
           <div class="col-md-6">
             <label class="form-label">Categoria</label>
-            <select name="categoria" class="form-select input-custom">
+            <select name="pCategoria" class="form-select input-custom">
               <!-- Substitua depois com dados do banco -->
-              <option value="1">SALAS</option>
-              <option value="2">QUARTOS</option>
-              <option value="3">BANHEIROS</option>
-              <option value="4">ESCRITÓRIOS</option>
-              <option value="5">COZINHAS</option>
-              <option value="6">VARANDAS</option>
+             
             </select>
           </div>
           <div class="col-md-6">
@@ -199,5 +197,6 @@
     setTimeout(() => msg.remove(), 4000);
   });
 </script>
+<script src = "../JS/produtos_logista.js"></script>
 </body>
 </html>
